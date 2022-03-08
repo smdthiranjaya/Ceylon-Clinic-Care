@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nibmproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.nibmproject.CheckBooking"
+            android:noHistory="true" ></activity>
+        <activity android:name="com.example.nibmproject.BookingClinic" />
+        <activity android:name="com.example.nibmproject.ClinicList" />
+        <activity android:name="com.example.nibmproject.SearchClinics" />
+        <activity android:name="com.example.nibmproject.SignUp" />
+        <activity android:name="com.example.nibmproject.Rating" />
+        <activity android:name="com.example.nibmproject.AddServicesClinic" />
+        <activity android:name="com.example.nibmproject.EmployeeHomePageAssigned" />
+        <activity android:name="com.example.nibmproject.EmployeeHomeNotAssigned" />
+        <activity android:name="com.example.nibmproject.EditWorkingHours" />
+        <activity android:name="com.example.nibmproject.Admin.ServiceList" />
+        <activity
+            android:name="com.example.nibmproject.EmployeeCompleteProfile"
+            android:exported="true" />
+        <activity android:name="com.example.nibmproject.Admin.ModifyServices" />
+        <activity android:name="com.example.nibmproject.Admin.AdminHomeScreen" />
+        <activity android:name="com.example.nibmproject.HomeScreen" />
+        <activity
+            android:name="com.example.nibmproject.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nibmproject.Admin.Signin_Admin" />
+        <activity android:name="com.example.nibmproject.Admin.ModifyUsers" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
